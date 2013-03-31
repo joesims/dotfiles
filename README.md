@@ -1,4 +1,4 @@
-dotfiles
+Joe's dotfiles
 ========
 
-Barebones set of config files
+Simple set of config files

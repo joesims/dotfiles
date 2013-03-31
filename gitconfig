@@ -1,0 +1,18 @@
+[user]
+  name = Joe Sims
+  email = joe@joesi.ms
+[color]
+  ui = true
+[alias]
+  aa = add --all
+  ap = add --patch
+  br = branch
+  co = checkout
+  di = diff
+  dc = diff --cached
+  dw = diff --color-words
+  dwa = diff --color-words --word-diff-regex=.
+  st = status
+  tree = log --graph --oneline --all --decorate
+[push]
+  default = upstream
