@@ -16,3 +16,5 @@
   tree = log --graph --oneline --all --decorate
 [push]
   default = upstream
+[core]
+  excludesfile = ~/.gitignore
