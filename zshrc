@@ -6,6 +6,7 @@ unsetopt beep
 
 alias ll='ls -al'
 alias mkdir='mkdir -p'
+alias du='du -h -d1'
 
 export PATH="./bin:/usr/local/bin:$PATH"
 
