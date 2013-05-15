@@ -1,0 +1,12 @@
+{
+  "auto_complete_commit_on_tab": true,
+  "color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
+  "ensure_newline_at_eof_on_save": true,
+  "font_size": 13.0,
+  "open_files_in_new_window": false,
+  "preview_on_click": false,
+  "tab_size": 2,
+  "theme": "Soda Dark.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true
+}
