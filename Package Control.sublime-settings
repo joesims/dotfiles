@@ -1,0 +1,12 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Base16 Color Schemes",
+		"GitGutter",
+		"Handlebars",
+		"Package Control",
+		"Sass",
+		"Tomorrow Color Schemes"
+	]
+}
