@@ -8,6 +8,7 @@ alias ll='ls -al'
 alias mkdir='mkdir -p'
 alias du='du -h -d1'
 alias tiga='tig --all'
+alias tigs='tig status'
 
 eval "$(rbenv init -)"
 
