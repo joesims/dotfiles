@@ -19,3 +19,5 @@
 [core]
   excludesfile = ~/.gitignore
   abbrev = 10
+[diff]
+  mnemonicprefix = true
