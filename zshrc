@@ -12,6 +12,8 @@ alias tigs='tig status'
 
 eval "$(rbenv init -)"
 
+source $HOME/.functions
+
 export PATH="./bin:/usr/local/bin:$PATH"
 
 export EDITOR="lime -w"
