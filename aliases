@@ -1,0 +1,5 @@
+alias du='du -h -d1'
+alias ll='ls -al'
+alias mkdir='mkdir -p'
+alias tiga='tig --all'
+alias tigs='tig status'
