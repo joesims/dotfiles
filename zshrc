@@ -9,6 +9,6 @@ eval "$(rbenv init -)"
 source $HOME/.aliases
 source $HOME/.functions
 
-export PATH="./bin:/usr/local/bin:$PATH"
+export PATH="./.git/safe/../../bin:/usr/local/bin:$PATH"
 
 export EDITOR="lime -w"
