@@ -5,11 +5,10 @@ unsetopt correct_all
 unsetopt beep
 bindkey -v
 
-eval "$(rbenv init -)"
-
 source $HOME/.aliases
 source $HOME/.functions
 
 export PATH="./.git/safe/../../bin:/usr/local/bin:$PATH"
-
 export EDITOR="lime -w"
+
+eval "$(rbenv init -)"
