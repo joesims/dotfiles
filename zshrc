@@ -5,8 +5,10 @@ unsetopt correct_all
 unsetopt beep
 bindkey -v
 
-source $HOME/.aliases
-source $HOME/.functions
+source $HOME/.zsh/aliases
+for function in $HOME/.zsh/functions/*; do
+  source $function
+done
 
 export PATH="./.git/safe/../../bin:/usr/local/bin:$PATH"
 export EDITOR="lime -w"
