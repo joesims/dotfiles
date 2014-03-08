@@ -1,5 +1,8 @@
 unsetopt correct_all
 unsetopt beep
+setopt auto_pushd
+setopt pushd_ignore_dups
+setopt pushdminus
 bindkey -v
 
 source $HOME/.zsh/aliases
