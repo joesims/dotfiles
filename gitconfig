@@ -21,3 +21,5 @@
   abbrev = 10
 [diff]
   mnemonicprefix = true
+[status]
+  short = true
