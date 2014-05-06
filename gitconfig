@@ -22,4 +22,5 @@
 [diff]
   mnemonicprefix = true
 [status]
+  branch = true
   short = true
