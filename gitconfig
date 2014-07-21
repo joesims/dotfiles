@@ -24,3 +24,5 @@
 [status]
   branch = true
   short = true
+[fetch]
+  prune = true
