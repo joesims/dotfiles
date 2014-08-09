@@ -5,6 +5,7 @@
   ui = true
 [alias]
   aa = add --all
+  ai = add --all --intent-to-add
   ap = add --patch
   br = branch
   cm = commit --verbose
