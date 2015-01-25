@@ -13,7 +13,6 @@
   di = diff
   dc = diff --cached
   dw = diff --color-words
-  dwa = diff --color-words --word-diff-regex=.
   st = status
   tree = log --graph --oneline --all --decorate
 [push]
