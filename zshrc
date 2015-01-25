@@ -20,7 +20,7 @@ done
 source $HOME/.zsh/prompt.zsh
 source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-export PATH="./.git/safe/../../bin:/usr/local/bin:$PATH"
+export PATH="./.git/safe/../../bin:$PATH"
 export EDITOR="lime -w"
 
 eval "$(rbenv init - --no-rehash)"
