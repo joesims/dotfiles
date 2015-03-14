@@ -21,6 +21,7 @@
   excludesfile = ~/.gitignore
   abbrev = 10
 [diff]
+  algorithm = patience
   mnemonicprefix = true
 [status]
   branch = true
