@@ -23,4 +23,5 @@ source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH="./.git/safe/../../bin:$PATH"
 export EDITOR="lime -w"
 
-eval "$(rbenv init - --no-rehash)"
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/auto.sh
