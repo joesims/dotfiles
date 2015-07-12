@@ -13,6 +13,15 @@ setopt hist_ignore_dups
 setopt inc_append_history
 setopt share_history
 
+autoload -U compinit
+compinit
+unsetopt menu_complete
+setopt auto_menu
+setopt complete_in_word
+setopt always_to_end
+zmodload -i zsh/complist
+zstyle ':completion:*' menu select
+
 source $HOME/.zsh/aliases
 for function in $HOME/.zsh/functions/*; do
   source $function
