@@ -16,7 +16,7 @@
   st = status
   tree = log --graph --oneline --all --decorate
 [push]
-  default = current
+  default = upstream
 [core]
   excludesfile = ~/.gitignore
   abbrev = 10
