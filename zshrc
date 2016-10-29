@@ -26,6 +26,9 @@ for function in $HOME/.zsh/functions/*; do
 done
 source $HOME/.zsh/prompt.zsh
 source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOME/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
+bindkey -M vicmd 'k' history-substring-search-up
+bindkey -M vicmd 'j' history-substring-search-down
 
 export PATH="./.git/safe/../../bin:$PATH"
 export EDITOR="lime -w"
