@@ -8,9 +8,7 @@ bindkey -v
 HISTFILE=$HOME/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
-setopt extended_history
 setopt hist_ignore_dups
-setopt inc_append_history
 setopt share_history
 
 autoload -U compinit
